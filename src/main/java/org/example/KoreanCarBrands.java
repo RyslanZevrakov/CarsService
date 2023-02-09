@@ -6,11 +6,11 @@ public class KoreanCarBrands {
 
     do {
         System.out.println("Допалнительная информация ");
-        System.out.println(" 1. Daewoo");
-        System.out.println(" 2. Kia");
-        System.out.println(" 3.Genesis");
-        System.out.println("4.SsangYong");
-        System.out.println("5 Hyundai");
+        System.out.println(" 1. Daewoo"+" :стоит 900000");
+        System.out.println(" 2. Kia"+" :стоит 1000000");
+        System.out.println(" 3.Genesis"+" :стоит 1100000");
+        System.out.println("4.SsangYong"+" :стоит 1200000");
+        System.out.println("5 Hyundai"+" :стоит 1300000");
 
         System.out.println("выберете вариант");
 

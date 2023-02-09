@@ -8,9 +8,10 @@ public class Money {
     Scanner scanner = new Scanner(System.in);
     Dstribution dstribution = new Dstribution();
 
+    public double clientsMoney=scanner.nextDouble();
 
     void many() throws IOException {
-        double clientsMoney=scanner.nextDouble();
+
         if(clientsMoney>=500000) {
             dstribution.cjp();
         }
