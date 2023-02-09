@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Dstribution {
     public void cjp()
-      throws java.io.IOException {
-       // char choice;
+            throws java.io.IOException {
+        // char choice;
 
         PopularCarBrands popularCarBrands = new PopularCarBrands();
         JapaneseCarBrands japaneseCarBrands = new JapaneseCarBrands();
@@ -16,7 +16,7 @@ public class Dstribution {
         KoreanCarBrands koreanCarBrands = new KoreanCarBrands();
         RussianCarBrands russianCarBrands = new RussianCarBrands();
 
-       // do {
+        // do {
 //            System.out.println("Информация");
 //            System.out.println(" 1. Японские марки авто");
 //            System.out.println(" 2. Американские марки авто");
@@ -41,49 +41,40 @@ public class Dstribution {
         System.out.println("6 Европейские марки авто");
         System.out.println("7 Китайские марки авто ");
         System.out.println("8 Популярные марки авто");
-        System.out.println("выберете вариант");
+        System.out.print("Bыберете вариант: ");
+
         Scanner scanner = new Scanner(System.in);
 
-        String choice = scanner.nextLine();
+        int choice = scanner.nextInt();
 
-        System.out.println("\n");
-        switch (choice){
-            case "1":
+        System.out.println();
 
+        switch (choice) {
+            case 1:
                 japaneseCarBrands.japanseCarBrands();
-
                 break;
-            case "2":
-
+            case 2:
                 americanCarBrands.americanCarBrands();
-
                 break;
-            case "3":
-
+            case 3:
                 russianCarBrands.russianCarBrands();
                 break;
-            case "4":
+            case 4:
                 germanCarBrands.germanCarBrands();
                 break;
-            case '5':
-
+            case 5:
                 koreanCarBrands.koreanCarBrands();
                 break;
-            case '6':
-
+            case 6:
                 europeanCarBrands.europeanCarBrands();
                 break;
-            case '7':
-
+            case 7:
                 chineseCarBrands.chineseCarBrands();
                 break;
-            case '8':
+            case 8:
                 System.out.println("\n");
                 popularCarBrands.popularCarBrands();
-
                 break;
-
-
         }
     }
 }
