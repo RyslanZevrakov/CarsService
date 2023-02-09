@@ -1,10 +1,12 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class ChineseCarBrands {
     void chineseCarBrands() throws java.io.IOException {
         char choice;
-        Money money = new Money();
-        double many = money.clientsMoney;
+        Scanner scanner = new Scanner(System.in);
+
         do {
             System.out.println("Допалнительная информация ");
             System.out.println(" 1. Brilliance"+" :стоит 500000");
@@ -23,12 +25,14 @@ public class ChineseCarBrands {
         }
         while (choice< '1' || choice > '6' );
         System.out.println("\n");
+        System.out.println("Введите каличестов ваших средств");
+        double clientsMoney=scanner.nextDouble();
         switch (choice){
             case '1':
-                if (many>=500000){
+                if (clientsMoney>=500000){
 
-                    many=many-500000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-500000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
@@ -36,10 +40,10 @@ public class ChineseCarBrands {
 
                 break;
             case '2':
-                if (many>=600000){
+                if (clientsMoney>=600000){
 
-                    many=many-600000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-600000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
@@ -48,20 +52,20 @@ public class ChineseCarBrands {
 
                 break;
             case '3':
-                if (many>=700000){
+                if (clientsMoney>=700000){
 
-                    many=many-700000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-700000;
+                    System.out.println("Оставщиеся деньги "+clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
                 }
                 break;
             case '4':
-                if (many>=800000){
+                if (clientsMoney>=800000){
 
-                    many=many-800000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-800000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
@@ -69,10 +73,10 @@ public class ChineseCarBrands {
 
                 break;
             case '5':
-                if (many>=900000){
+                if (clientsMoney>=900000){
 
-                    many=many-900000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-900000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
@@ -80,48 +84,48 @@ public class ChineseCarBrands {
 
                 break;
             case '6':
-                if (many>=1000000){
+                if (clientsMoney>=1000000){
 
-                    many=many-1000000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-1000000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
                 }
+
                 break;
             case '7':
-                if (many>=1100000){
+                if (clientsMoney>=1100000){
 
-                    many=many-1100000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-1100000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
                 }
+
                 break;
             case '8':
-                if (many>=1200000){
+                if (clientsMoney>=1200000){
 
-                    many=many-1200000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-1200000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
                 }
+
                 break;
             case '9':
-                if (many>=1300000){
+                if (clientsMoney>=1300000){
 
-                    many=many-500000;
-                    System.out.println("Оставщиеся деньги "+ many);
+                    clientsMoney=clientsMoney-500000;
+                    System.out.println("Оставщиеся деньги "+ clientsMoney);
                 }
                 else {
                     System.out.println("Денег нет");
                 }
                 break;
-
-
-
 
 
         }

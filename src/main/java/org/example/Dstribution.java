@@ -30,33 +30,33 @@ public class Dstribution {
         System.out.println("\n");
         switch (choice){
             case '1':
-                System.out.println("\n");
+                
                 japaneseCarBrands.japanseCarBrands();
 
                 break;
             case '2':
-                System.out.println("\n");
+
                 americanCarBrands.americanCarBrands();
 
                 break;
             case '3':
-                System.out.println("\n");
+
                 russianCarBrands.russianCarBrands();
                 break;
             case '4':
-                System.out.println("\n");
+
                 germanCarBrands.germanCarBrands();
                 break;
             case '5':
-                System.out.println("\n");
+
                 koreanCarBrands.koreanCarBrands();
                 break;
             case '6':
-                System.out.println("\n");
+
                 europeanCarBrands.europeanCarBrands();
                 break;
             case '7':
-                System.out.println("\n");
+
                 chineseCarBrands.chineseCarBrands();
                 break;
             case '8':
