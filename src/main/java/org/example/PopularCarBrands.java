@@ -10,9 +10,9 @@ public class PopularCarBrands {
 
         do {
             System.out.println("Допалнительная информация ");
-            System.out.println(" 1. Audi"+" :стоит 500000");
-            System.out.println(" 2. BMW"+" :стоит 600000");
-            System.out.println(" 3. Ford"+" :стоит 700000");
+            System.out.println("1. Audi"+" :стоит 500000");
+            System.out.println("2. BMW"+" :стоит 600000");
+            System.out.println("3. Ford"+" :стоит 700000");
             System.out.println("4. Honda"+" :стоит 800000");
             System.out.println("5 Hyundai"+" :стоит 900000");
             System.out.println("6 Kia"+" :стоит 1000000");
